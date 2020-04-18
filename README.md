@@ -30,14 +30,36 @@ Yukarıdaki aldığım verilerin Google Sheet'deki çizimini [burada](https://do
 *   Customize ------> Trendline -------> Polynomial,  Polynnomial Degree=2, Label= Use Equation
 
 Bulduğum ikinci dereceden denklem (x= konum, t=zaman, *x= at^2+b*t + c*) şu şekilde çıktı:
-*x = -1.22*t^2 + 1.81*t + 3.92E-03* 
+*x = -1.22*t^2 + 1.81*t + 3.92E-03*             
 
+Yukarıdaki örneği kullanarak **kendi ölçümlerinizle** bir tablo oluşturun (hiç değilse birkaç frame benim ölçümlerinden farklı olsun.) Kullandığınız Google Sheet için [buraya](https://docs.google.com/spreadsheets/d/18M6OZoqBt7-vSQClRzC6GVjXPt2PfNbiiZ3y4GUEAzg/edit?usp=sharing) linki verdim. (Arada virgülden sonra aynı sayıyı tekrarladığım sayılar devirli olduğundan dahga net sonuç vermesi için yapabildiğim kadar devreden sayıyı tekrarladım.)
 
-Yukarıdaki örneği kullanarak **kendi ölçümlerinizle** bir tablo oluşturun (hiç değilse birkaç frame benim ölçümlerinden farklı olsun.) Kullandığınız Google Sheet için [buraya](link ver) link verin (Google Sheet herkese açık erişimli olsun.) 
+***GRAFİĞİ ÇİZDİĞİM TABLOM:***
+| Frame | Zaman(s) | Konum (m)|
+|-------|----------| ---------|
+| 7 (Başlangıç)| 0 |   0      |
+| 11    | 4/60     |   0.12   |
+| 14    | 7/60     |   0.2    | 
+| 16    | 9/60     |   0.25   |
+| 19    | 12/60    |   0.32   |
+| 21    | 14/60    |   0.36   |
+| 24    | 17/60    |   0.42   |
+| 28    | 21/60    |   0.49   | 
+| 33    | 26/60    |   0.56   |
+| 40    | 33/60    |   0.63   |
+| 48    | 41/60    |   0.67   |
+| 53    | 46/60    |   0,6745 |
 
-a) Denkleminizi **buraya yazınız**. Sizce a, b, ve c'nin fiziksel anlamları ne olabilir? Sizce niçin a'nın değeri negatif? 
-b) Hava sürtünmesini ihmal edersek, bu harakette ivme sabit midir? 
-c) Video'daki cismin atılış hızı farklı olsaydı (diğer herşey aynı, kütle, yüzey, vb. Hava sürtünmesini ihmal edin), sizce formülde hangi terimler değişecekti? (a, b veya c) 
+a) Denklemim  ( y=konum, t=zaman, *y= at^2+b*t + c* ) = **y= -1,24t^2 + 1,83t + 2,74E-03**. 
+
+Sizce a, b, ve c'nin fiziksel anlamları ne olabilir?  **Cevap:**  
+
+Sizce niçin a'nın değeri negatif?  **Cevap:**  
+
+b) Hava sürtünmesini ihmal edersek, bu harakette ivme sabit midir?  
+**Cevap:** Bu cevap hakkında daha iyi düşünmek için aklıma bir hız-zaman grafiği yapmak geldi eğer azalan hız doğrusal olarak azalıyorsa ivme sabit kalacaktır dedim ve [bir](https://docs.google.com/spreadsheets/d/1D0vh_vXDR_nFrfwGKrEHMXR1EtZW8Bft_MhmrsMVVLg/edit?usp=sharing) hız-zaman grafiği yaptım hata yapmadığımı düşünüyorum -her ne kadar sonda sabit kalan hızı açıklayamasam da- ve grafiğe göre ivme değişiyor.
+
+c) Video'daki cismin atılış hızı farklı olsaydı (diğer her şey aynı, kütle, yüzey, vb. Hava sürtünmesini ihmal edin), sizce formülde hangi terimler değişecekti? (a, b veya c)  **Cevap:** 
 
 # Bölüm 2 (İvmeli Hareketin Ortalama Hız-Zaman Grafiği)
 Bu sefer aynı cismin zaman-hız (ortalama hız) grafiğini çizeceksiniz. Bunun için *1.Bölümde* aldığımız sonuçları kullanacağız. Ortalama hızı bulmak için derste öğrendiğimiz ortalama hız formülünü (Delta x/ Delta t) kullanacağız. Google Sheet kullanarak hız-zaman grafiği nasıl çizildiğini anlamak için  [bu videoya](https://www.youtube.com/watch?v=67IsHRmcmfE&t) bakınız. Ortalama hız-zaman grafiğini çizilirken, ortalama hıza karşılık gelen zamanı nasıl belirleyeceksin? Bir andaki  ortalama hızı hesaplarken o noktadan önceki ve o noktadan sonraki (t,x) noktalarını kullanacaksın. Bu yüzden konum grafiğimde 11 veri noktam varken, hız-zaman grafiğinde veri noktam 9'a düştü. (İlk baştaki ve son baştaki noktalar için ortalama hızı hesaplayamam çünkü başlangıç noktasından önce ve bitiş noktasından sonraki (t,x) bilgilerine sahip değilim.)
