@@ -32,7 +32,7 @@ Yukarıdaki aldığım verilerin Google Sheet'deki çizimini [burada](https://do
 Bulduğum ikinci dereceden denklem (x= konum, t=zaman, *x= at^2+b*t + c*) şu şekilde çıktı:
 *x = -1.22*t^2 + 1.81*t + 3.92E-03*             
 
-Yukarıdaki örneği kullanarak **kendi ölçümlerinizle** bir tablo oluşturun (hiç değilse birkaç frame benim ölçümlerinden farklı olsun.) Kullandığınız Google Sheet için [buraya](https://docs.google.com/spreadsheets/d/18M6OZoqBt7-vSQClRzC6GVjXPt2PfNbiiZ3y4GUEAzg/edit?usp=sharing) linki verdim. (Arada virgülden sonra aynı sayıyı tekrarladığım sayılar devirli olduğundan dahga net sonuç vermesi için yapabildiğim kadar devreden sayıyı tekrarladım.)
+Yukarıdaki örneği kullanarak **kendi ölçümlerinizle** bir tablo oluşturun (hiç değilse birkaç frame benim ölçümlerinden farklı olsun.) Kullandığınız Google Sheet için [buraya](https://docs.google.com/spreadsheets/d/18M6OZoqBt7-vSQClRzC6GVjXPt2PfNbiiZ3y4GUEAzg/edit?usp=sharing) linki verdim. 
 
 ***GRAFİĞİ ÇİZDİĞİM TABLOM:***
 | Frame | Zaman(s) | Konum (m)|
@@ -50,16 +50,16 @@ Yukarıdaki örneği kullanarak **kendi ölçümlerinizle** bir tablo oluşturun
 | 48    | 41/60    |   0.67   |
 | 53    | 46/60    |   0,6745 |
 
-a) Denklemim  ( y=konum, t=zaman, *y= at^2+b*t + c* ) = **y= -1,24t^2 + 1,83t + 2,74E-03**. 
+a) Denklemim  ( y=konum, t=zaman, *y= at^2+b*t + c* ) = **y= -1,25t^2 + 1,83t + 2,27E-03**. 
 
-Sizce a, b, ve c'nin fiziksel anlamları ne olabilir?  **Cevap:**  
+Sizce a, b, ve c'nin fiziksel anlamları ne olabilir?  **Cevap:**  Bence a hızdaki değişimi belirleyen katsayı, c atılış hızı, b için ilk başta aklıma geçen zamanla ilişkili olabileceği geldi ama zamanı değiştirince değişmedi yani muhtemelen alınan yol ile bir ilişkisi var.
 
-Sizce niçin a'nın değeri negatif?  **Cevap:**  
+Sizce niçin a'nın değeri negatif?  **Cevap:** Hız azaldığı için olabilir. 
 
 b) Hava sürtünmesini ihmal edersek, bu harakette ivme sabit midir?  
-**Cevap:** Bu cevap hakkında daha iyi düşünmek için aklıma bir hız-zaman grafiği yapmak geldi eğer azalan hız doğrusal olarak azalıyorsa ivme sabit kalacaktır dedim ve [bir](https://docs.google.com/spreadsheets/d/1D0vh_vXDR_nFrfwGKrEHMXR1EtZW8Bft_MhmrsMVVLg/edit?usp=sharing) hız-zaman grafiği yaptım hata yapmadığımı düşünüyorum -her ne kadar sonda sabit kalan hızı açıklayamasam da- ve grafiğe göre ivme değişiyor.
+**Cevap:** Bu cevap hakkında daha iyi düşünmek için aklıma bir hız-zaman grafiği yapmak geldi eğer azalan hız doğrusal olarak azalıyorsa ivme sabit kalacaktır dedim ve ortalama hız-zaman grafiği yaptım hata yapmadığımı düşünüyorum ve grafiğe göre *ivme değişiyor*. Grafik ikinci bölüme de gerektiğinden onu ikinci bölümde bulabilirsiniz.
 
-c) Video'daki cismin atılış hızı farklı olsaydı (diğer her şey aynı, kütle, yüzey, vb. Hava sürtünmesini ihmal edin), sizce formülde hangi terimler değişecekti? (a, b veya c)  **Cevap:** 
+c) Video'daki cismin atılış hızı farklı olsaydı (diğer her şey aynı, kütle, yüzey, vb. Hava sürtünmesini ihmal edin), sizce formülde hangi terimler değişecekti? (a, b veya c)  **Cevap:** Eğer a, b ve c için yukarıda yaptığım tahminler doğruysa c kesinlikle değişirdi, hız artacağından b de değişirdi, ama a yine aynı şekilde yavaşlayan eşit kütleli cisimden dolayı değişmeyecekti diye düşünüyorum. 
 
 # Bölüm 2 (İvmeli Hareketin Ortalama Hız-Zaman Grafiği)
 Bu sefer aynı cismin zaman-hız (ortalama hız) grafiğini çizeceksiniz. Bunun için *1.Bölümde* aldığımız sonuçları kullanacağız. Ortalama hızı bulmak için derste öğrendiğimiz ortalama hız formülünü (Delta x/ Delta t) kullanacağız. Google Sheet kullanarak hız-zaman grafiği nasıl çizildiğini anlamak için  [bu videoya](https://www.youtube.com/watch?v=67IsHRmcmfE&t) bakınız. Ortalama hız-zaman grafiğini çizilirken, ortalama hıza karşılık gelen zamanı nasıl belirleyeceksin? Bir andaki  ortalama hızı hesaplarken o noktadan önceki ve o noktadan sonraki (t,x) noktalarını kullanacaksın. Bu yüzden konum grafiğimde 11 veri noktam varken, hız-zaman grafiğinde veri noktam 9'a düştü. (İlk baştaki ve son baştaki noktalar için ortalama hızı hesaplayamam çünkü başlangıç noktasından önce ve bitiş noktasından sonraki (t,x) bilgilerine sahip değilim.)
@@ -68,11 +68,12 @@ Ben kendi verilerim için bir google sheet hazırladım. [Buraya](https://docs.g
 *   Customize ------> Trendline -------> Linear, Label=Use Equation
 kullandım. Konum-zaman grafiği 2.dereceden bir denklem iken, hız-zaman grafiği 1.dereceden (linear-doğrusal) denklem. 
 
-1) Kendi aldığınız verileri kullanarak **ortalama hız-zaman** grafiğini Google çiziniz. [Buraya](link ver) link veriniz.
+1) Kendi aldığınız verileri kullanarak **ortalama hız-zaman** grafiğini Google çiziniz. [Buraya](https://docs.google.com/spreadsheets/d/1D0vh_vXDR_nFrfwGKrEHMXR1EtZW8Bft_MhmrsMVVLg/edit?usp=sharing) linki verdim.
 
 2) Aynı Google Sheet'i kullanarak ivme verilerini Google Sheet'inize girin. (Bu sefer 7 tane ivme veriniz olacak.) İvme-zaman grafiğini çiziniz.
 
 3) İvme'yi ne buldunuz? Bu ivme değerini kullanarak 1kg'lık cisim ile yüzey arasındaki kinetik sürtünme katsayısını bulunuz. 
+**Cevap:** İvmeyi -2,49 buldum. Sürtünme katsayısını ise 0,249 buldum
 
 # Bölüm 3 (Hala Beni Öldürmeyi Düşünmüyorsan)
 1) Bu deneyde ölçüm hatalarım var. Zamandaki ölçüm hatam sizce kaç ms (mili saniye) nedir? Konumdaki ölçüm hatam sizce kaç cm'dir? 
