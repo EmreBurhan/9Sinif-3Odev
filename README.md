@@ -87,6 +87,8 @@ Konumdaki ölçüm hatam sizce kaç cm'dir?
 
 **Cevap:** 0,025 buldum.
 
+**NOT:** Bu iki değeri başka muhtemel değerler bulup ortalamasını alıp daha sonra ortalam ile değerin farkını alarak buldum.
+
 2) Acaba hiç grafik çizmeden sürtünme katsayısını bulabilir miydim?  (Cevap: Evet). 
 Yardım:
 * Düzgün ivmelenen bir cisim için alınan yol formülü x = (ilk hız+ son hız)/2*t, burdan cismin ilk hızını bulunuz. 
